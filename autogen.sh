@@ -277,7 +277,7 @@ if [ "$myhost" = "amd64" ]; then
         fi
     fi
 
-    $tsdir/configure --enable-maintainer-mode ${SILENT} \
+    $tsdir/configure --enable-maintainer-mode --enable-ntru ${SILENT} \
              --prefix=${amd64root}  \
              --host=${host} --build=${build} \
              ${configure_opts} ${extraoptions} "$@"

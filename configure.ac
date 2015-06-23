@@ -329,6 +329,18 @@ case "${host}" in
         ;;
 esac
 
+# check if configured with libntruencrypt
+AC_ARG_ENABLE(ntru,
+  AS_HELP_STRING(--enable-ntru, Build libgcrypt with support for NTRUEncrypt algorithm), [], [enable_ntru=no])
+
+if test $enable_ntru != no; then
+  AC_CHECK_HEADERS([libntruencrypt/ntru_crypto.h])
+  LIBS="$LIBS -lntruencrypt"
+  NTRUENCRYPT_LIBS=-lntruencrypt
+  available_pubkey_ciphers="$available_pubkey_ciphers ntru"
+
+  AC_SUBST(NTRUENCRYPT_LIBS)
+fi
 
 AC_ARG_ENABLE(endian-check,
               AC_HELP_STRING([--disable-endian-check],
@@ -2017,6 +2029,12 @@ if test "$found" = "1" ; then
                           ecc.lo ecc-curves.lo ecc-misc.lo \
                           ecc-ecdsa.lo ecc-eddsa.lo ecc-gost.lo"
    AC_DEFINE(USE_ECC, 1, [Defined if this module should be included])
+fi
+
+LIST_MEMBER(ntru, $enabled_pubkey_ciphers)
+if test "$found" = "1" ; then
+   GCRYPT_PUBKEY_CIPHERS="$GCRYPT_PUBKEY_CIPHERS ntru-gcrypt-wrapper.lo"
+   AC_DEFINE(USE_NTRU, 1, [Defined if this module should be included])
 fi
 
 LIST_MEMBER(crc, $enabled_digests)

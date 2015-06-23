@@ -57,9 +57,13 @@ bufhelp.h  \
 primegen.c  \
 hash-common.c hash-common.h \
 dsa-common.c rsa-common.c \
+base64.c \
+base64.h \
 rmd.h
 
 EXTRA_libcipher_la_SOURCES = \
+ntru-gcrypt-wrapper.c \
+ntru-gcrypt-wrapper.h \
 arcfour.c arcfour-amd64.S \
 blowfish.c blowfish-amd64.S blowfish-arm.S \
 cast5.c cast5-amd64.S cast5-arm.S \

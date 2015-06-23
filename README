@@ -36,6 +36,10 @@
 
     You should get the latest versions of course.
 
+    To build libgcrypt with NTRU public key crypto:
+      https://github.com/NTRUOpenSourceProject/ntru-crypto 
+
+
     After building and installing the libgpg-error package, you may
     continue with Libgcrypt installation as with allmost all GNU
     packages, you just have to do
@@ -185,8 +189,11 @@
                      the feature under the assumption that either good
                      CFLAGS are given or the compiler can grok the code.
 
-
-
+     --enable-ntru
+                     This let libgcrypt to link against libntruencrypt.
+                     To check if it is linked propoerly, run the sample
+                     code from sample/test_ntru_gcrypt.cpp.
+                     
 
     Build Problems
     --------------

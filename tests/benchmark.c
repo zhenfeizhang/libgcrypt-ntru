@@ -392,6 +392,143 @@ static const char sample_private_elg_key_3072[] =
 "  ))";
 
 
+
+/* A sample dimension 439 NTRU private key used for the selftests.  */
+static const char sample_secret_ntru_key439[] =
+"(private-key"
+"(ntru"
+"(NTRU"
+"AgMAAxD4/bZON4SkzqINu9cm4lgMLflx1zNmoGrkSSBfl4LPpCB2beJ1yyX2U7bEhr7e"
+"qZwBdYYDopvgyWFVr4H60z0XR6lh5Q01yRgs5tIzKQyUpym+Ce3fkZ/3+r2QBlGtAY4+6"
+"2irL7nZ4XYajYf0xE/9SLZfkFPXEzlJaByBgQPp/SdoC4mEDmei368+MeRz5ZfXkWaEQ3"
+"2byk7VuzuuoaVcMp3mpqxwImJmTozbUaPEo90iKZonzT9wt7n01sNUYm4ICzrYKSeLSMK"
+"cgRgOKdvJPEnGL4nRPzrLi9McNB1rITezC+3tg0f6uRvFz7ilLKjGxtI3lp7tQM2jx7wP"
+"Gw5+kaC/adaVTryEZprUZV7bRx1aALN6AS7MJsctFJXcx5ZzXHL9qc/BjBAM5bBCjnYMH"
+"SgK6f5xlS//+1Vi8A6Tzpluc37HGUJb7KEdIsXhnqrSY2ailTwjhIDVRxviAUiLn53oGn"
+"vdy+NU/gxtIxIonJ+GGm0k95/5qxyfSnyRepbU5ZQxDYPHFTiDtxs5nVpM5QoJQc6+ogx"
+"JSp8xEck52EgGSOH+GanJybIV6dWo0ykW1v8GQux2Bh3lePkI9csC7tHSZviGt+ILZdxA"
+"k/1lGofOhD7RhqFoYi8jYgdH/jPlAWIig4TilEfnEt4ynzPkcCRzk31DZYaXB1Qr86l1N"
+"wfOQWnSZjQsfVbMXVHbV5qP/f16o6SOTSy7JuzQ27giTGrdGGysRJoiRM0p2WQ5lnXPFz"
+"EU8KIFC3/ZUhUz/NPFZJL2RCdcKs0YNc44UHWJ3WRZlyGFH4n6cHlIF7mUptrykxejbhF"
+"PGimbCzGoFz5rFmagBvT7kIAZWYXqseQjextG91s8Wv0knasDCMA=)))";
+/* A sample dimension 439 NTRU public key used for the selftests.  */
+static const char sample_public_ntru_key439[] =
+"(public-key"
+"(ntru"
+"(NTRU"
+"AQMAAxD4/bZON4SkzqINu9cm4lgMLflx1zNmoGrkSSBfl4LPpCB2beJ1yyX2U7bEhr7e"
+"qZwBdYYDopvgyWFVr4H60z0XR6lh5Q01yRgs5tIzKQyUpym+Ce3fkZ/3+r2QBlGtAY4+6"
+"2irL7nZ4XYajYf0xE/9SLZfkFPXEzlJaByBgQPp/SdoC4mEDmei368+MeRz5ZfXkWaEQ3"
+"2byk7VuzuuoaVcMp3mpqxwImJmTozbUaPEo90iKZonzT9wt7n01sNUYm4ICzrYKSeLSMK"
+"cgRgOKdvJPEnGL4nRPzrLi9McNB1rITezC+3tg0f6uRvFz7ilLKjGxtI3lp7tQM2jx7wP"
+"Gw5+kaC/adaVTryEZprUZV7bRx1aALN6AS7MJsctFJXcx5ZzXHL9qc/BjBAM5bBCjnYMH"
+"SgK6f5xlS//+1Vi8A6Tzpluc37HGUJb7KEdIsXhnqrSY2ailTwjhIDVRxviAUiLn53oGn"
+"vdy+NU/gxtIxIonJ+GGm0k95/5qxyfSnyRepbU5ZQxDYPHFTiDtxs5nVpM5QoJQc6+ogx"
+"JSp8xEck52EgGSOH+GanJybIV6dWo0ykW1v8GQux2Bh3lePkI9csC7tHSZviGt+ILZdxA"
+"k/1lGofOhD7RhqFoYi8jYgdH/jPlAWIig4TilEfnEt4ynzPkcCRzk31DZYaXB1Qr86l1N"
+"wfOQWnSZjQsfVbMXVHbV5qP/f16o6SOTSy7JuzQ27giTGrdGGysRJoiRM0p2WQ5lnXPFz"
+"EU8KIFC3/ZUhUz/NPFZJL2RCdcKs0YNc44UHWJ3WRZlyGFH4n6cHlI)))";
+
+/* A sample dimension 493 NTRU private key used for the selftests.  */
+static const char sample_secret_ntru_key593[] =
+"(private-key"
+"(ntru"
+"(NTRU"
+"AgMABRDX622c5T6rDgfmUQVI2h1dgEZP/qC+8sx3CFo5Rj0+YQ5Tq/4xb95dmG5NuAEG"
+"DWb7sdiHbJgw6I/JxZmrjsu5cde8WxvVFTWT4O6jmxsuzJZhzq6iF7/99ne6DFy0sBCvk"
+"vEAEMFUgqyDCqFtc30EJpuTYZYOU7kIIKlhwnjqADeoK2hNKLgATGNSaWig3KztfO0o9x"
+"lThcVKLoeO0YNSNsL8IGsrbn7logFaSfglxGpxlAzrr0NFYrXbJ8+GPVpfLIQmqnIx6tb"
+"k7xOR/jtTLbfwpRsNGVwdtvA4wnigRDwF7QcRbfM60FWAWI3YEzGO2qbWGoaO8JZxcQBK"
+"kGbFWR5eNnK1RZfYPV3WPNg6LfTB4McgLHJH1X6qBzH5CQ0ehYL+ozKP0kurd7CkoI06D"
+"vae7oQOOMvxh1DtOq3dHMfG+r1a2dp9t8LGtRFp3fPgezfaCFOE8aa+MC6dnBvK+tZmLA"
+"0kKws0Nc8ZMfgyfL2pCicDBN2djVwmsYfdERRHGA11a16dkbajcHdF04dzK/9uioqF57E"
+"dkh2a7qnNw2fcSuLFXBTs31bDjh4vAE571JLWXKZkd0T2degI9apii3LIz/MESK1WBjkZ"
+"0zt5uG037RrKtSbFrDaTkkqsVYIow2zB/AiiU6RRkXe819fKEQRFXG7bqJz3RIjQ1QkS9"
+"2Sdc8DIiTeo/cVP8l38+Oi1hlacgw2F3A9TRN+YLfsJLRX0gcWciwz7pvrpyFUOgTIhxt"
+"FzkVgjwljffPdpcxkO8WSrwqqpZlxXuj08BuG9xpyN2IJ+Vw9SvLow5fVtGNi1nU4zx6l"
+"GTFOBP7rzLjHdPC+umCarBrCd9tmHN1heiiYDd7g8IfJfjbeKJ6p4Grq6WfU1f0TTzGkB"
+"a2rbJBIFjoI/tffbA6xm+P70kRkHq/ayWmk0qnQDTJQ51PJ+GvYl/VSVEGoIhS2V4YK26"
+"pJ2ieb98jelqLSozzgo/PczTd/KHO1srno5Id+YIeetf0bZ6J6gZja6WxfLvdmhMJNpXe"
+"ghdY6MsoT1kf4TQKOArchYFE7/wCl9rcg43Aj0JGdpLjVTDHnxvKXdiKjeOWAmDaDgny2"
+"KtSxqjIuiliQvAsc0ejVTkISjVJjXMeBxRXHUNlzi+GEvPFjmBBM3gnCuDCMPN8CoSNay"
+"xV8v4JARWynVwrzR)))";
+/* A sample dimension 439 NTRU public key used for the selftests.  */
+static const char sample_public_ntru_key593[] =
+"(public-key"
+"(ntru"
+"(NTRU"
+"AQMABRDX622c5T6rDgfmUQVI2h1dgEZP/qC+8sx3CFo5Rj0+YQ5Tq/4xb95dmG5NuAEG"
+"DWb7sdiHbJgw6I/JxZmrjsu5cde8WxvVFTWT4O6jmxsuzJZhzq6iF7/99ne6DFy0sBCvk"
+"vEAEMFUgqyDCqFtc30EJpuTYZYOU7kIIKlhwnjqADeoK2hNKLgATGNSaWig3KztfO0o9x"
+"lThcVKLoeO0YNSNsL8IGsrbn7logFaSfglxGpxlAzrr0NFYrXbJ8+GPVpfLIQmqnIx6tb"
+"k7xOR/jtTLbfwpRsNGVwdtvA4wnigRDwF7QcRbfM60FWAWI3YEzGO2qbWGoaO8JZxcQBK"
+"kGbFWR5eNnK1RZfYPV3WPNg6LfTB4McgLHJH1X6qBzH5CQ0ehYL+ozKP0kurd7CkoI06D"
+"vae7oQOOMvxh1DtOq3dHMfG+r1a2dp9t8LGtRFp3fPgezfaCFOE8aa+MC6dnBvK+tZmLA"
+"0kKws0Nc8ZMfgyfL2pCicDBN2djVwmsYfdERRHGA11a16dkbajcHdF04dzK/9uioqF57E"
+"dkh2a7qnNw2fcSuLFXBTs31bDjh4vAE571JLWXKZkd0T2degI9apii3LIz/MESK1WBjkZ"
+"0zt5uG037RrKtSbFrDaTkkqsVYIow2zB/AiiU6RRkXe819fKEQRFXG7bqJz3RIjQ1QkS9"
+"2Sdc8DIiTeo/cVP8l38+Oi1hlacgw2F3A9TRN+YLfsJLRX0gcWciwz7pvrpyFUOgTIhxt"
+"FzkVgjwljffPdpcxkO8WSrwqqpZlxXuj08BuG9xpyN2IJ+Vw9SvLow5fVtGNi1nU4zx6l"
+"GTFOBP7rzLjHdPC+umCarBrCd9tmHN1heiiYDd7g8IfJfjbeKJ6p4Grq6WfU1f0TTzGkB"
+"a2rbJBIFjoI/tffbA6xm+P70kRkHq/ayWmk0qnQDTJQ51PJ+GvYl/VSVEGoIhS2V4YK26"
+"pJ2ieb98jelqLSozzgo/PczTd/KHO1srno5Id+YIeetf0bZ6J6gZja6WxfLvdmhMJNpXe"
+"ghdY6MsoT1kf4TQKOArchYFE7/wCl9rcg43Aj0JGdpLjVTDHnxvKXdiKjeOWA=)))";
+
+
+/* A sample dimension 493 NTRU private key used for the selftests.  */
+static const char sample_secret_ntru_key743[] =
+"(private-key"
+"(ntru"
+"(NTRU"
+"AgMABhAKHhcsXOolid9nt56VJoRJiSfPdJzbH2BrvpbAj/05uFFDZcU6On43z7/cPuTv"
+"X/Ql3p/W10CZ7ymVAneaL1EqBAspeO+gkndJgBiEyo5W5DOgyB4pWpBupfLFXw5QXzpHb"
+"1m2GLQPtFFzadflevoAaf4XjlRcYB+/cQT+Z0Lrbrixd9BHdGQyw/esMZ8/FjnY8ikzx0"
+"iNCchFYNB6gPspEfrI28BQQxWRo0+lO1BaWqC9dxPHE7/WBxWErJP5YgrB/fR3UjrTJk5"
+"jSlvlRbQNPKqgWa8osjwbeJBFdvsWflA/uJPVZvrElAZ59o133CmjWnMoDpWfS8AiXDZU"
+"PP/UvSTFH78h4d71xTzxt+xZvrOnSIjDibJQyOnQ0owxSE2oBXEsjcI8zPrFtQjE0jeww"
+"MFhJagOHWHkV3S9NFrqUrFyRbLHO2ojGrUUzGwTxGyjQ8V0Mp2kkLks+wdx42BFsRnpsq"
+"3+C9mxEggLc1nIXb59c1hLBPZYAl13dE1K8wuY8J5dVWtmcZOv0Qll3qc861fGPlNwvn2"
+"Cgw81Y4HrNp4KRZNrgqnO8RV/ZVVMfY+lyXloKCPB7y+15SrXjAipFAPnXaIhwH2HAlSG"
+"onxfcsPRSXvEDNCAvjc9od0+ABW5bKLpCgiYR1o3p1iagTk6uHim47wJeogdpobrFkm40"
+"Oddub5ywml7x6Ovu9xz4nFXPMY+ptvMDRC24YsvXsWRfKCeZrWsrlA+kSNU9x3EBTD+sp"
+"hkkiXXXGh3mjYKG1jh6rxXVAV7nmclhiI1iouoo5lTpn7sPPlgQzSF+N2Kf5YywFFYgAD"
+"VQZqQHQYkbbiTUrmNqDYwx82LCPGuR2hH4SCbN5QEkI81gSiAQrGYgmk2LeOnmb5EpG9t"
+"xzYcuQ6nGlFX6LsB6Hhzf9AfPTDFAHRk7ACqw8cV8aGFb4qesfO+kEPqnzAoYqKg6hmTq"
+"R5RnKpqasgE3oiRKEM3z2vAV8SmA1FUotu1BW07n9QCnmq9VA6y9wR8jv5315XXQ6SHnw"
+"G2FBOQSTO3/XxW2/cBZIU8e+KSUE3QwY0Zj0dAM+alRJGfogpR6BDvonr34yu3jdzuCWT"
+"A9LBiLj5JRdeaIIRFHYCQYEnwl84rkPJFR7vDcv2zvNjokCU9KAd7LW3VN3EBIhDzwD7E"
+"ZWJWYzntkiWF8qgsZMqIlK/Yso7olwSUx7KFeNls00SvSpw2rM+muEfOmTq3VO7ZSYPeP"
+"QilbJoCzr0Ab5f0i0C6D/dxmM+gAaqTfr9hg/m+xBGXe0G4oDSqRaG2tl67daxwpapxqB"
+"vXUCVDj+E2WeiGKe+7CN5poVteiTvyymiwbySI8wOlaaXdBrhzNA/NnUVXIDNDSaC7fep"
+"pXOxRnfuAsSRuKRWRdJZgze+PJCTYppesCqacRpAp3Tdn6PkSP2EeAgazB6Dqjleex1sU"
+"twJqyJwNeyk37LQGEofADCzGJvR9RBQnrnchW/Kav7WtMA==)))";
+/* A sample dimension 439 NTRU public key used for the selftests.  */
+static const char sample_public_ntru_key743[] =
+"(public-key"
+"(ntru"
+"(NTRU"
+"AQMABhAKHhcsXOolid9nt56VJoRJiSfPdJzbH2BrvpbAj/05uFFDZcU6On43z7/cPuTv"
+"X/Ql3p/W10CZ7ymVAneaL1EqBAspeO+gkndJgBiEyo5W5DOgyB4pWpBupfLFXw5QXzpHb"
+"1m2GLQPtFFzadflevoAaf4XjlRcYB+/cQT+Z0Lrbrixd9BHdGQyw/esMZ8/FjnY8ikzx0"
+"iNCchFYNB6gPspEfrI28BQQxWRo0+lO1BaWqC9dxPHE7/WBxWErJP5YgrB/fR3UjrTJk5"
+"jSlvlRbQNPKqgWa8osjwbeJBFdvsWflA/uJPVZvrElAZ59o133CmjWnMoDpWfS8AiXDZU"
+"PP/UvSTFH78h4d71xTzxt+xZvrOnSIjDibJQyOnQ0owxSE2oBXEsjcI8zPrFtQjE0jeww"
+"MFhJagOHWHkV3S9NFrqUrFyRbLHO2ojGrUUzGwTxGyjQ8V0Mp2kkLks+wdx42BFsRnpsq"
+"3+C9mxEggLc1nIXb59c1hLBPZYAl13dE1K8wuY8J5dVWtmcZOv0Qll3qc861fGPlNwvn2"
+"Cgw81Y4HrNp4KRZNrgqnO8RV/ZVVMfY+lyXloKCPB7y+15SrXjAipFAPnXaIhwH2HAlSG"
+"onxfcsPRSXvEDNCAvjc9od0+ABW5bKLpCgiYR1o3p1iagTk6uHim47wJeogdpobrFkm40"
+"Oddub5ywml7x6Ovu9xz4nFXPMY+ptvMDRC24YsvXsWRfKCeZrWsrlA+kSNU9x3EBTD+sp"
+"hkkiXXXGh3mjYKG1jh6rxXVAV7nmclhiI1iouoo5lTpn7sPPlgQzSF+N2Kf5YywFFYgAD"
+"VQZqQHQYkbbiTUrmNqDYwx82LCPGuR2hH4SCbN5QEkI81gSiAQrGYgmk2LeOnmb5EpG9t"
+"xzYcuQ6nGlFX6LsB6Hhzf9AfPTDFAHRk7ACqw8cV8aGFb4qesfO+kEPqnzAoYqKg6hmTq"
+"R5RnKpqasgE3oiRKEM3z2vAV8SmA1FUotu1BW07n9QCnmq9VA6y9wR8jv5315XXQ6SHnw"
+"G2FBOQSTO3/XxW2/cBZIU8e+KSUE3QwY0Zj0dAM+alRJGfogpR6BDvonr34yu3jdzuCWT"
+"A9LBiLj5JRdeaIIRFHYCQYEnwl84rkPJFR7vDcv2zvNjokCU9KAd7LW3VN3EBIhDzwD7E"
+"ZWJWYzntkiWF8qgsZMqIlK/Yso7olwSUx7KFeNls00SvSpw2rM+muEfOmTq3VO7ZSYPeP"
+"QilbJoCzr0Ab5f0i0C6D/dxmM+gAaqTfr9hg/m+xBGXe0G4oDSqRaG2tl67daxwpapxqB"
+"vXUCVDj+E2WeiGKe+7CN5poVteiTvyymiwbySI8wOlaaXdBrhzNA/NnUVXIA==)))";
+
+
 #define DIM(v)		     (sizeof(v)/sizeof((v)[0]))
 #define DIMof(type,member)   DIM(((type *)0)->member)
 #define BUG() do {fprintf ( stderr, "Ooops at %s:%d\n", __FILE__ , __LINE__ );\
@@ -1540,6 +1677,106 @@ ecc_bench (int iterations, int print_header)
     }
 #endif /*USE_ECC*/
 }
+static void
+ntru_bench (int iterations, int print_header)
+{
+#if USE_NTRU
+  gpg_error_t err;
+  gcry_sexp_t pub_key[3], sec_key[3];
+  int i, counter;
+  int dim[3] = { 439, 593,743 };
+  gcry_sexp_t data;
+  gcry_sexp_t enc[iterations];
+  gcry_sexp_t plain[iterations];
+  const unsigned char* msg = (const unsigned char*) "Hello SI. Let's encrypt.";
+  char timerbuf1[100];
+
+  err =   gcry_sexp_new(pub_key+0,sample_public_ntru_key439,strlen (sample_public_ntru_key439),1);
+  if (!err)
+	  err =   gcry_sexp_new(pub_key+1,sample_public_ntru_key593,strlen (sample_public_ntru_key593),1);
+  if (!err)
+	  err =   gcry_sexp_new(pub_key+2,sample_public_ntru_key743,strlen (sample_public_ntru_key743),1);
+  if (!err)
+	  err =   gcry_sexp_new(sec_key+0,sample_secret_ntru_key439,strlen (sample_secret_ntru_key439),1);
+  if (!err)
+	  err =   gcry_sexp_new(sec_key+1,sample_secret_ntru_key593,strlen (sample_secret_ntru_key593),1);
+  if (!err)
+	  err =   gcry_sexp_new(sec_key+2,sample_secret_ntru_key743,strlen (sample_secret_ntru_key743),1);
+
+  if (err)
+    {
+      fprintf (stderr, PGM ": converting sample keys failed: %s\n",
+               gcry_strerror (err));
+      exit (1);
+    }
+  err = gcry_sexp_build(&data, NULL, "(data (flags raw) (value %s))", msg);
+
+  if (print_header)
+    printf ("Algorithm         generate %4d*priv %4d*public\n"
+            "------------------------------------------------\n",
+            iterations, iterations );
+
+
+  for(i=0;i<3;i++)
+  {
+      for (counter=0;counter<iterations;counter++)
+      {
+          enc[counter] = NULL;
+          plain[counter] = NULL;
+      }
+
+      printf ("ntru %d dim             -", dim[i]);
+      fflush (stdout);
+
+      start_timer ();
+      for (counter=0; counter< iterations; counter++)
+        {
+          err = gcry_pk_encrypt (enc+counter, data, pub_key[i]);
+          if (err)
+            {
+              putchar ('\n');
+              fprintf (stderr, PGM ": encrypt failed: %s\n",
+                       gpg_strerror (err));
+              exit (1);
+            }
+        }
+      stop_timer ();
+
+      snprintf (timerbuf1, sizeof timerbuf1, "   %s", elapsed_time (1));
+      fflush (stdout);
+
+      start_timer ();
+      for (counter=0; counter < iterations; counter++)
+        {
+          err = gcry_pk_decrypt (plain+counter, enc[counter], sec_key[i]);
+          if (err)
+            {
+              putchar ('\n');
+              fprintf (stderr, PGM ":    decrypt failed: %s\n",
+                       gpg_strerror (err));
+              exit (1);
+            }
+        }
+      stop_timer ();
+      printf ("   %s  %s\n", elapsed_time (1), timerbuf1);
+      fflush (stdout);
+  }
+
+
+    for (counter=0; counter < iterations; counter++)
+    {
+        gcry_sexp_release (plain[counter]);
+        gcry_sexp_release (enc[counter]);
+    }
+    gcry_sexp_release (data);
+    for (i=0; i < 3; i++)
+    {
+        gcry_sexp_release (sec_key[i]);
+        gcry_sexp_release (pub_key[i]);
+    }
+
+#endif /*USE_NTRU*/
+}
 
 
 
@@ -1864,6 +2101,7 @@ main( int argc, char **argv )
       rsa_bench (pk_count, 1, no_blinding);
       elg_bench (pk_count, 0);
       dsa_bench (pk_count, 0);
+      ntru_bench(pk_count, 0);
       ecc_bench (pk_count, 0);
       putchar ('\n');
       mpi_bench ();
@@ -1917,6 +2155,7 @@ main( int argc, char **argv )
         rsa_bench (pk_count, 1, no_blinding);
         elg_bench (pk_count, 0);
         dsa_bench (pk_count, 0);
+        ntru_bench(pk_count, 0);
         ecc_bench (pk_count, 0);
     }
   else if ( !strcmp (*argv, "rsa"))
@@ -1938,6 +2177,11 @@ main( int argc, char **argv )
     {
         gcry_control (GCRYCTL_ENABLE_QUICK_RANDOM, 0);
         ecc_bench (pk_count, 1);
+    }
+  else if ( !strcmp (*argv, "ntru"))
+    {
+        gcry_control (GCRYCTL_ENABLE_QUICK_RANDOM, 0);
+        ntru_bench (pk_count, 1);
     }
   else if ( !strcmp (*argv, "prime"))
     {

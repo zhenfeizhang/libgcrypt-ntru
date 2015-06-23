@@ -1,0 +1,18 @@
+		    libgcrypt : enabling NTRUEncrypt for libgcrypt
+		-------------------------------------------------------
+
+Dependency:
+  libntruencrypt 1.0.0
+  https://github.com/NTRUOpenSourceProject/ntru-crypto
+
+Installation:
+
+  ./autogen.sh
+  ./configure --enable-maintainer-mode --enable-ntru
+  make
+  sudo make install
+
+Example code:
+  cd sample
+  g++ test_ntru_gcrypt.cpp -lgcrypt -o test.o
+  ./test.o

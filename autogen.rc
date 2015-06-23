@@ -14,4 +14,4 @@ case "$myhost" in
     ;;
 esac
 
-final_info="./configure --enable-maintainer-mode && make"
+final_info="./configure --enable-maintainer-mode --enable-ntru && make"

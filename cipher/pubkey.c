@@ -48,6 +48,9 @@ static gcry_pk_spec_t *pubkey_list[] =
 #if USE_ELGAMAL
     &_gcry_pubkey_spec_elg,
 #endif
+#if USE_NTRU
+    &_gcry_pubkey_spec_ntru,
+#endif
     NULL
   };
 
@@ -62,6 +65,7 @@ map_algo (int algo)
    case GCRY_PK_ELG_E: return GCRY_PK_ELG;
    case GCRY_PK_ECDSA: return GCRY_PK_ECC;
    case GCRY_PK_ECDH:  return GCRY_PK_ECC;
+   case GCRY_PK_NTRU:  return GCRY_PK_NTRU;
    default:            return algo;
    }
 }
